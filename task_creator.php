@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-include './tasks/Task.php';
+include './app/tasks/Task.php';
 
 $filesDir = __DIR__ . '/runtime/queue';
 

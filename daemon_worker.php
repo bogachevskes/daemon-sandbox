@@ -2,7 +2,7 @@
 <?php
 
 include './app/MasterContainer.php';
-include './tasks/Task.php';
+include './app/tasks/Task.php';
 
 function clearLogsDir(string $dir): void
 {
