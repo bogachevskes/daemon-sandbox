@@ -9,9 +9,9 @@ class Task
         $this->id = rand(1e5, 9e5);
     }
     
-    public function doSome(): void
+    public function doSome(): string
     {
-        sleep(1);
-        echo "\033[32mЗадача выполнена\033[0m\n";
+        sleep(5);
+        return "Задача {$this->id} выполнена";
     }
 }
